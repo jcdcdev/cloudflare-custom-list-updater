@@ -1,23 +1,38 @@
-
 # ── GSD baseline (auto-generated) ──
 .gsd
 .gsd-id
 .mcp.json
 .bg-shell/
+
+# ── Local development config (launchSettings.json) ──
+Properties/launchSettings.json
+
+# ── IDE ──
+.idea/
+.vscode/
+*.code-workspace
+
+# ── OS ──
 .DS_Store
 Thumbs.db
 *.swp
 *.swo
 *~
-.idea/
-.vscode/
-*.code-workspace
-.env
-.env.*
-!.env.example
+
+# ── .NET ──
+bin/
+obj/
+*.user
+*.suo
+*.cache
+publish/
+
+# ── Node ──
 node_modules/
 .next/
 dist/
+
+# ── Python ──
 build/
 __pycache__/
 *.pyc
@@ -29,3 +44,10 @@ vendor/
 coverage/
 .cache/
 tmp/
+
+# ── Environment ──
+.env
+.env.*
+!.env.example
+
+*launchSettings.json
