@@ -22,4 +22,4 @@ jobs:
           source-branch: dev
           target-branch: main
           dry-run: ${{ env.DRY_RUN }}
-          github-token: ${{ secrets.GITHUB_TOKEN }}
+          github-token: ${{ secrets.JCDC_BOT_TOKEN }}
