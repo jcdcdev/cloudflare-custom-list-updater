@@ -1,0 +1,17 @@
+bin/
+obj/
+publish/
+.gs/
+.git/
+.github/
+tests/
+*.user
+*.suo
+.vs/
+.vscode/
+.idea/
+*.md
+!README.md
+LICENSE
+.gitignore
+.dockerignore
