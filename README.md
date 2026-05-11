@@ -18,8 +18,7 @@ A .NET 10 Docker container that declaratively manages a Cloudflare custom list.
 ```yaml title="docker-compose.yml"
 services:
   cloudflare-custom-list-updater:
-    image: jcdcdev/cloudflare-custom-list-updater:alpha
-    build: .
+    image: jcdcdev/cloudflare-custom-list-updater:latest
     environment:
       CF_API_TOKEN: "your-cloudflare-api-token"
       CF_ACCOUNT_ID: "your-account-id"
